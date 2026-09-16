@@ -1,8 +1,8 @@
 # 🍸 Cocktail App
 
-Aplicación web desarrollada con **Angular y TypeScript** para consultar y gestionar una carta de cócteles y realizar pedidos.
+Aplicación web desarrollada con **Angular 20 y TypeScript** para consultar una carta de cócteles y gestionar pedidos.
 
-El proyecto utiliza componentes independientes y navegación entre diferentes secciones de la aplicación.
+El proyecto utiliza componentes independientes, navegación entre diferentes secciones y formularios para trabajar con la información de los pedidos.
 
 ## 🚀 Demo
 
@@ -13,16 +13,23 @@ El proyecto utiliza componentes independientes y navegación entre diferentes se
 * 🍹 Visualización de cócteles
 * 📋 Consulta de la carta
 * 🛒 Gestión de pedidos
+* ➕ Añadir productos al pedido
 * 🧩 Componentes reutilizables
-* 🔀 Navegación entre diferentes secciones
+* 🔀 Navegación mediante Angular Router
+* 📝 Formularios
 * 📱 Interfaz web responsive
 
 ## 🛠️ Tecnologías
 
-* Angular
+* Angular 20
 * TypeScript
 * HTML
 * CSS
+* Angular Router
+* Angular Forms
+* RxJS
+* Jasmine
+* Karma
 * Git / GitHub
 * Netlify
 
@@ -44,7 +51,25 @@ cocktail-app/
 
 ## 🎯 Objetivo
 
-El objetivo del proyecto fue desarrollar una aplicación web con **Angular y TypeScript**, trabajando con componentes, navegación y gestión de información dentro de una interfaz orientada a la consulta de una carta y realización de pedidos.
+El objetivo del proyecto fue desarrollar una aplicación web con **Angular y TypeScript**, trabajando conceptos de desarrollo frontend como:
+
+* Componentes
+* Formularios
+* Routing
+* Gestión de datos
+* Gestión de pedidos
+* Diseño responsive
+* Organización de una aplicación Angular
+
+## 🧪 Testing
+
+El proyecto incluye configuración para realizar tests mediante **Jasmine y Karma**.
+
+Para ejecutar los tests:
+
+```bash
+npm test
+```
 
 ## 💻 Instalación
 
