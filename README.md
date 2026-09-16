@@ -1,59 +1,85 @@
-# Examen3
+# 🍸 Cocktail App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
+Aplicación web desarrollada con **Angular y TypeScript** para consultar y gestionar una carta de cócteles y realizar pedidos.
 
-## Development server
+El proyecto utiliza componentes independientes y navegación entre diferentes secciones de la aplicación.
 
-To start a local development server, run:
+## 🚀 Demo
+
+[Ver aplicación online](https://frolicking-bavarois-365ae7.netlify.app/menu)
+
+## ✨ Funcionalidades
+
+* 🍹 Visualización de cócteles
+* 📋 Consulta de la carta
+* 🛒 Gestión de pedidos
+* 🧩 Componentes reutilizables
+* 🔀 Navegación entre diferentes secciones
+* 📱 Interfaz web responsive
+
+## 🛠️ Tecnologías
+
+* Angular
+* TypeScript
+* HTML
+* CSS
+* Git / GitHub
+* Netlify
+
+## 🏗️ Estructura del proyecto
+
+```text
+cocktail-app/
+├── src/
+│   └── app/
+│       ├── components/
+│       │   ├── cocteles/
+│       │   ├── menu/
+│       │   └── pedido/
+│       ├── app.config.ts
+│       └── app.routes.ts
+├── public/
+└── ...
+```
+
+## 🎯 Objetivo
+
+El objetivo del proyecto fue desarrollar una aplicación web con **Angular y TypeScript**, trabajando con componentes, navegación y gestión de información dentro de una interfaz orientada a la consulta de una carta y realización de pedidos.
+
+## 💻 Instalación
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/Alvaro-Demi/cocktail-app.git
+```
+
+Accede al proyecto:
+
+```bash
+cd cocktail-app
+```
+
+Instala las dependencias:
+
+```bash
+npm install
+```
+
+Inicia el servidor de desarrollo:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Después abre:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📌 Estado del proyecto
 
-```bash
-ng generate --help
-```
+Proyecto académico desarrollado durante el ciclo de **Desarrollo de Aplicaciones Web (DAW)**.
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+El proyecto se encuentra desplegado y disponible para consultar online.
